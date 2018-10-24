@@ -2,7 +2,7 @@
   font-weight: 100;
   font-family: "Exo 2.0";
   font-style: normal;
-  src: local("Exo 2.0 Thin"), local("Exo2.0-Thin"), url("/fonts/Exo20-Thin.woff2") format("woff2"), url("/fonts/Exo20-Thin.woff") format("woff"); }
+  src: local("Exo 2.0 Thin"), local("Exo2.0-Thin"), url("../fonts/Exo20-Thin.woff2") format("woff2"), url("../fonts/Exo20-Thin.woff") format("woff"); }
 
 body {
   position: fixed;
@@ -367,14 +367,14 @@ input[type="radio"].visually-hidden {
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
-    font-family: "Exo 2.0", "Arial", sans-serif;
     text-shadow: 0 1px #000000;
     font-weight: 100;
     font-size: 36px;
     line-height: 50px;
     font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", "Arial", sans-serif;
     text-align: center;
-    color: #ffffff; }
+    color: #ffffff;
+    font-family: "Exo 2.0", "Arial", sans-serif; }
   .content__list {
     display: -webkit-box;
     display: -ms-flexbox;
